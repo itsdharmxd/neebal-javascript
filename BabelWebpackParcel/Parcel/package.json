@@ -1,0 +1,21 @@
+{
+  "name": "babelwebpackparcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "targets": { "main": false },
+  "scripts": {
+    "build":"npx parcel build index.html",
+    "start": "npx parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dharmesh",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "type": "module",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
